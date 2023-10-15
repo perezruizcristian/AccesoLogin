@@ -16,5 +16,69 @@ namespace AccesoLogin
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(textBox1.Text))
+            {
+                MessageBox.Show("Deve ingresar su Usuario", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                if (String.IsNullOrEmpty(textBox2.Text))
+                {
+                    MessageBox.Show("Deve ingresar una Contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+
+                    if (String.IsNullOrEmpty(textBox3.Text))
+                    {
+                        MessageBox.Show("Deve ingresar su Usuario", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        if (String.IsNullOrEmpty(textBox4.Text))
+                        {
+                            MessageBox.Show("Deve ingresar una Contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+
+                            if (String.IsNullOrEmpty(textBox5.Text))
+                            {
+                                MessageBox.Show("Deve ingresar su Usuario", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                            else
+                            {
+                                if (String.IsNullOrEmpty(textBox5.Text))
+                                {
+                                    MessageBox.Show("Deve ingresar una Contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                }
+                                else
+                                {
+
+                                    if (String.IsNullOrEmpty(textBox6.Text))
+                                    {
+                                        MessageBox.Show("Deve ingresar una Contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    }
+                                    else
+                                    {
+
+                                        MessageBox.Show("Deve ingresar una Contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        }
     }
 }
