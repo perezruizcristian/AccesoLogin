@@ -19,7 +19,7 @@ namespace AccesoLogin
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            /*dasda*/
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
